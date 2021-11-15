@@ -1,0 +1,234 @@
+/* Cabecera */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+  width: 100%;
+  padding: 9rem 3rem;
+  text-align: center;
+  background: #E02401;
+  box-sizing: border-box;
+}
+
+.banner h1 {
+  color: #f1f1f1;
+}
+
+.container {
+  width: 100%;
+  height: 60px;
+  background: #BF1F01;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+}
+
+header nav a {
+  color: white;
+  display: inline-block;
+  padding: 10px 15px;
+  line-height: 1;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+header nav a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  width: 80px;
+  margin: 0;
+}
+
+.logo img {
+  width: 100%;
+}
+
+
+/* Noticias home */
+
+.title a {
+  text-decoration: none;
+  color: black;
+}
+
+.noticia-titular {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.noticias-secundarias {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.img-secundarias {
+  width: 500px;
+}
+
+.img-primaria {
+  width: 700px;
+}
+
+
+/* Noticia */
+
+.noticia-titulo {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+}
+
+.img-noticia {
+  margin:10px auto;
+	display:block;
+}
+
+.texto-contenedor {
+  width: 50%;
+  margin:75px auto;
+	display:block;
+}
+
+.texto-contenedor p {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+
+/* Transpasos */
+
+.transpaso-div {
+  margin: 40px 20px;
+}
+
+.transpaso-img-contenedor {
+  background-color: #FAB770;
+}
+
+.transpaso-img {
+  margin: 10px 130px;
+	display:inline-block;
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+}
+
+/* Transpasos jugador */
+
+#tabla-transpasos {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#tabla-transpasos td, #tabla-transpasos th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabla-transpasos tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabla-transpasos tr:hover {background-color: #ddd;}
+
+#tabla-transpasos th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #E02401;
+  color: white;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #631D27;
+  height: auto;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+
+.socials a:hover i {
+  color: #E02401;
+}
+
+.footer-bottom {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
